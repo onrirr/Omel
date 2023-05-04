@@ -1,7 +1,6 @@
+# OMEL 
 
-# Fig
-
-Fig (Familiar & Intiutive Grammar) is a minimal file format for creating simple and easy to understand configuration files heavily insipired by [TOML](https://toml.io/en/). It is extremely lightweight with the entirety of the parser coming under 200 lines and 4kb minified.
+OMEL (Onrir's Minimalistic Easy Language) is a minimal file format for creating simple and easy to understand configuration files heavily insipired by [TOML](https://toml.io/en/). It is extremely lightweight with the entirety of the parser coming under 200 lines and 4kb minified.
 
 ```
 port = 8000
@@ -12,7 +11,7 @@ port = 8000
   permissions = ["Administrator", "Moderator"]
 ```
 
-![Logo](https://media.discordapp.net/attachments/1054418917059211325/1103739688147243118/test.png)
+![Logo](https://media.discordapp.net/attachments/1069307384230596658/1103750132983418890/test.png)
 
 
 ## Features
@@ -46,14 +45,14 @@ array = [
 
 And how to use it;
 ```
-const fig = require('fig.js');
+const omel = require('omel');
 
-const config = fig.read('con.fig'); //-> reads file and parse it
+const config = omel.read('config'); //-> reads file and parse it
 
 const input = `
   id = 1
 `
-const output = fig.parse(input); //-> reads input string and parses it.
+const output = omel.parse(input); //-> reads input string and parses it.
 ```
 ## Authors
 
