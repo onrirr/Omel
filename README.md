@@ -23,9 +23,9 @@ port = 8000
 - Familiar by design.
 
 
-## Fig By Example
+## Omel By Example
 
-The entirety of Fig, in one example code sample.
+The entirety of Omel, in one example code sample.
 ```
 port = 8000 # port to listen on
 bool = true # boolean value
