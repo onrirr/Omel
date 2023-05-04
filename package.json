@@ -1,0 +1,23 @@
+{
+  "name": "fig.js",
+  "version": "1.0.0",
+  "description": "A simple and blazingly fast config language similar to TOML",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "keywords": [
+    "toml",
+    "json",
+    "yaml",
+    "config",
+    "configuration",
+    "fig"
+  ],
+  "author": "onrir",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.16.3",
+    "typescript": "^5.0.4"
+  }
+}
